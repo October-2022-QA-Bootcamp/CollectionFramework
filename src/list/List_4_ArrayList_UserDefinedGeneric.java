@@ -1,4 +1,5 @@
 package list;
+import java.awt.JobAttributes.DefaultSelectionType;
 import java.util.ArrayList;
 
 /*
@@ -39,6 +40,9 @@ public class List_4_ArrayList_UserDefinedGeneric {
 		//getting element in index 1 then getting name variable value of that specific obj
 		System.out.println(arrayList.get(1).name);
 		
+		
+		
+
 		
 		
 		

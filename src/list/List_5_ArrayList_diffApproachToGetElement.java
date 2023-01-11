@@ -1,4 +1,5 @@
 package list;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -48,6 +49,12 @@ public class List_5_ArrayList_diffApproachToGetElement {
 		//from java 1.8 this method is added in colleciton (in iterable interface
 		//we are passing Consumer obj by using Lambda express
 		arrayList1.forEach(n->System.out.println(n));
+		
+		
+		
+		
+		
+		
 		
 		
 	}

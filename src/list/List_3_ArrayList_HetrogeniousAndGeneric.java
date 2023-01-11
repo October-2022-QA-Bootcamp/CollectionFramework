@@ -9,7 +9,7 @@ public class List_3_ArrayList_HetrogeniousAndGeneric {
 	public static void main(String[] args) {
 		
 		//adding Hatrogenious type element
-		ArrayList<Comparable> arrayList = new ArrayList<Comparable>();
+		ArrayList arrayList = new ArrayList();
 		arrayList.add(5); //Integer not int (it convrted already to Integer obj)
 		arrayList.add(5.5);//Double
 		arrayList.add("Sohag");
