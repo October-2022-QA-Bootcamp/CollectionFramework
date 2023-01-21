@@ -17,6 +17,8 @@ public class List_2_ArrayListCapacity {
 		//arrayList.add(55);//5
 		arrayList.add(65);//5
 		
+		System.out.println(arrayList.size());//6
+		
 		
 			if(arrayList.isEmpty()) {
 				System.out.println("Nothing to do.....obj is empty");

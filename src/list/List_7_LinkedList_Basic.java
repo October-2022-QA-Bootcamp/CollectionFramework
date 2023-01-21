@@ -15,10 +15,10 @@ public class List_7_LinkedList_Basic {
 	//	linkedList.add(25);
 		linkedList.add(35);
 		linkedList.add(45);
-		
+		//adding in specific index
 		linkedList.add(2, 500);
 		
-		
+		//adding element by using random class
 //		for(int i=0;i<5;i++) {
 //			Random rm=new Random(100);
 //			
@@ -26,7 +26,6 @@ public class List_7_LinkedList_Basic {
 //		}
 //		
 		
-		//single
 		System.out.println(linkedList.get(0));
 		
 		
