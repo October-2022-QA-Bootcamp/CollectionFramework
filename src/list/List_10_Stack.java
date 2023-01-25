@@ -14,6 +14,17 @@ public class List_10_Stack {
 		stack.push("Arif");//last
 		
 		
+		//forEach()---1.8----it will get obj---by lambda expression it will confirm which obj we are passing---
+		stack.forEach(n->System.out.println(n));
+		
+		
+		String name ="Sohag";
+		StringBuilder sBuilder=new StringBuilder(name);
+		System.out.println(sBuilder.reverse());
+		
+		
+		
+		
 		
 		//peek() will return the top element in list
 		System.out.println(stack.peek());// will return too item arif

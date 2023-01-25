@@ -20,6 +20,28 @@ public class Map_treeMap {
 		
 		System.out.println(treeMap);
 		
+		
+		
+		TreeMap<String, Integer> treeMap1=new TreeMap<>();
+		treeMap1.put("Nabeel", 5);
+		treeMap1.put("Mahmuda", 6);
+		treeMap1.put("Sohag", 4);
+		treeMap1.put("Abir", 7);
+		treeMap1.put("Akash", 70);
+		
+		System.out.println(treeMap1);
+		
+		System.out.println("************");
+		
+		TreeMap<String, Integer> treeMap2=new TreeMap<>();
+		treeMap2.put("Liton", 100);
+		treeMap2.putAll(treeMap1);
+		System.out.println(treeMap2);
+		
+		
+		
+		
+		
 	}
 
 }

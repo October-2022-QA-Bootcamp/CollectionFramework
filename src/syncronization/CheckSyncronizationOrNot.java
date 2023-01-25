@@ -1,6 +1,7 @@
 package syncronization;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Random;
 import java.util.Stack;
@@ -18,7 +19,8 @@ public class CheckSyncronizationOrNot {
 	
 	// addElement method---when this method will be invoked it will add  one element
 	public static void addElement() {
-		list.add(1);
+		Random random=new Random();
+		list.add(random.nextInt(10));
 	}
 	
 

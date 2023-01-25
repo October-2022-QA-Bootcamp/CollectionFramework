@@ -17,8 +17,11 @@ public class Map_01_HashMap {
 		map.put("Tofayel", 6666464);
 		map.put("Lobid", 897998);
 		map.put("Sohag", 7979155);
-		map.put("Sohag", 7979155);
-		map.put(null, 7979155);
+		map.put("Sohag", 7979155);//duplicate key is not possible
+		map.put(null, 7979155);//duplicate value is possible
+		
+		
+
 
 		
 		System.out.println("// to get value--need to pass key in get()**************************************************");	
