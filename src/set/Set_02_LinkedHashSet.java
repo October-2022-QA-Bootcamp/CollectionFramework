@@ -21,20 +21,19 @@ public class Set_02_LinkedHashSet {
 		
 		//2nd obj
 		LinkedHashSet<Integer> lSet2=new LinkedHashSet<>();
-		lSet2.add(505);
-		
+		lSet2.add(505); //added one element in lSet2
+		//now adding all in lSet2 from lSet obj (we created first set obj)
 		lSet2.addAll(lSet);
 		
-		lSet2.remove(505);
 		
-		
-
+		//Print all element from lSet2 by using forEach()
 		lSet2.forEach(n->System.out.println(n));
 		
 		
-		
-		
-		
+		//removing one element from lSet2
+		lSet2.remove(505);
+		//Print all element from lSet2 by using forEach()
+				lSet2.forEach(n->System.out.println(n));
 	}
 
 }
